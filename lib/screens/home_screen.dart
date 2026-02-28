@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen>
             backgroundColor: AppColors.oliveGreen,
             flexibleSpace: FlexibleSpaceBar(
               title: Text(
-                'Ricette',
+                'Italian Recipes',
                 style: TextStyle(
                   color: AppColors.warmWhite,
                   fontWeight: FontWeight.w600,
