@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
           centerTitle: true,
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: AppColors.warmWhite,
           elevation: 4,
           shadowColor: AppColors.terracotta.withValues(alpha: 0.2),
