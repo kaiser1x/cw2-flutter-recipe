@@ -232,6 +232,7 @@ class _RecipeCardState extends State<_RecipeCard>
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.center,
+                          mainAxisSize: MainAxisSize.min,
                           children: [
                             Text(
                               recipe.name,
@@ -261,7 +262,7 @@ class _RecipeCardState extends State<_RecipeCard>
                                 ),
                               ],
                             ),
-                            const Spacer(),
+                            const SizedBox(height: 8),
                             Icon(
                               Icons.arrow_forward_ios,
                               size: 12,
