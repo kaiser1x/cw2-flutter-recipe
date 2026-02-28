@@ -277,7 +277,6 @@ class _RecipeCardState extends State<_RecipeCard>
             ),
           ),
         ),
-      ),
     );
   }
 }
